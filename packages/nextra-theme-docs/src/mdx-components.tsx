@@ -131,7 +131,7 @@ const Details = ({
 
   return (
     <details
-      className="nx-my-4 nx-rounded nx-border nx-border-gray-200 nx-bg-white nx-p-2 nx-shadow-sm first:nx-mt-0 dark:nx-border-neutral-800 dark:nx-bg-neutral-900"
+      className="nx-my-4 nx-rounded nx-border nx-border-gray-200 nx-bg-white nx-p-2 nx-shadow-sm first:nx-mt-0 dark:nx-border-neutral-800 dark:nx-bg-dark"
       {...props}
       open={delayedOpenState}
       {...(openState && { 'data-expanded': true })}

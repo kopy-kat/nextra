@@ -49,7 +49,7 @@ export function Card({
         href={href}
         className={cn(
           classes.card,
-          'nx-bg-gray-100 nx-shadow dark:nx-border-neutral-700 dark:nx-bg-neutral-800 dark:nx-text-gray-50 hover:nx-shadow-lg dark:hover:nx-border-neutral-500 dark:hover:nx-bg-neutral-700'
+          'nx-bg-gray-100 nx-shadow dark:nx-border-neutral-700 dark:nx-bg-dark dark:nx-text-gray-50 hover:nx-shadow-lg dark:hover:nx-border-neutral-500 dark:hover:nx-bg-neutral-700'
         )}
         {...props}
       >
